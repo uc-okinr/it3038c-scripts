@@ -6,6 +6,7 @@
 
 # This script allows you to input a Wikipedia link in which the ouput will be The title/topic and the table of contents of that page
 # I imported two libraies, BeautifulSoup, and request to complete this
+#Just add a Wikipedia link of your choosing and the script should scrap for the title of the page and Table of content
 
 from bs4 import BeautifulSoup
 import requests

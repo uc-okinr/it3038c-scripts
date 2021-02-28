@@ -1,3 +1,6 @@
+//Used some links for help, here are my references
+//https://www.geeksforgeeks.org/node-js-os-uptime-method/ : 
+//https://stackoverflow.com/questions/28705009/how-do-i-get-the-server-uptime-in-node-js/28706630
 
 var http = require("http");
 var fs = require("fs");

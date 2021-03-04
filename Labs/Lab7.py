@@ -45,7 +45,7 @@ keywordprocessor = KeywordProcessor()
 keywordprocessor.add_keyword("Noah")
 Text = "Noah is going to make the world a bette place, Noah will own all of the coca cola in the world and Noah will build a empire based off choclate. Noah is great"
 Extractedkeywords = keywordprocessor.extract_keywords(Text)
-print(Extractedkeywords)
+print(lens(Extractedkeywords))
 
 
 # In[ ]:

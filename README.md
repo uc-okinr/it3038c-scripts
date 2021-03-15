@@ -3,6 +3,38 @@
 
 **My Github repo for IT3080C
 
+Project 1
+
+# This script allows you to input a Wikipedia link in which the ouput will be The title/topic and the table of contents of that page
+# I imported two libraies, BeautifulSoup, and request to complete this
+# This is not perfect. Because i can't figure how just get the text and not the numbers.
+# Also another issue is if there is more than 2 sub levels the script essentially wont pick them up, Need to figure that out
+
+Project 2
+    
+# My goal was to plant a table using panda, but ran into some issues. I tried to use this link "https://en.wikipedia.org/wiki/List_of_Japanese_military_equipment_of_World_War_II"
+#Again could'nt quite get it to run right so turning it in how ti is
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Lab 7 Example 
 
 Here is my example for my code for Lab 7, My sandbox isnt working properly right now so i used my own VM using mint OS. I used Jupyter Notebook as my enviroment. So to start you need to install FlashText,

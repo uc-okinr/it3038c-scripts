@@ -1,15 +1,11 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
-
 # This script allows you to input a Wikipedia link in which the ouput will be The title/topic and the table of contents of that page
 # I imported two libraies, BeautifulSoup, and request to complete this
-#Just add a Wikipedia link of your choosing and the script should scrap for the title of the page and Table of content
 
 from bs4 import BeautifulSoup
 import requests
+import numpy as np
+import pandas as pd
+
 
 URL = input('Wikipedia Website Link: '  
            )
@@ -42,10 +38,18 @@ for content in contents:
         continue
     print(head.text)
     print(sub.text)
+    
+tbl = pd.read_html(URL)
+tbl.head(2)
 
-
+tbl.columns = ['Name','Type','Role']
 
     
+# My goal was to plant a table using panda, but ran into some issues. I tried to use this link "https://en.wikipedia.org/wiki/List_of_Japanese_military_equipment_of_World_War_II"
+#Again could'nt quite get it to run right so turning it in how ti is
+
+
+
 
     
 # These are my references
@@ -59,12 +63,6 @@ for content in contents:
 #https://www.youtube.com/watch?v=ng2o98k983k&t=2115s
 
 #https://realpython.com/python-web-scraping-practical-introduction/
-
-
-
-
-# In[ ]:
-
 
 
 

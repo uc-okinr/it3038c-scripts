@@ -1,10 +1,14 @@
 //Used some links for help, here are my references
 //https://www.geeksforgeeks.org/node-js-os-uptime-method/ : 
-//https://stackoverflow.com/questions/28705009/how-do-i-get-the-server-uptime-in-node-js/28706630
+//https://
 
-var http = require("http");
+
+.com/questions/28705009/how-do-i-get-the-server-uptime-in-node-js/28706630
+
+var http = require("http");h
 var fs = require("fs");
-var os = require("os");
+var os = require("os");kk 
+
 var ip = require('ip');
 const { cpuUsage } = require("process");
 const { time } = require("console");

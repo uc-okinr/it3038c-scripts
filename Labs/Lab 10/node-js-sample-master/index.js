@@ -1,6 +1,6 @@
 var config = require('config')
 var express = require('express')
-var data = require("C:/it3038c-scripts/Labs/Lab 10/node-js-sample-master/widgets.json")
+var data = require("/app/public/widgets.json")
 var app = express()
 app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))

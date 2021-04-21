@@ -21,6 +21,8 @@ Project 3
 # Just make sure to download the appropriate packages.
 # All you would have to is make sure to have downloaded csv that the code would pull from and then run it.
 
+# https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset
+# You can use kaggle, for finding CSV file
 
 
 

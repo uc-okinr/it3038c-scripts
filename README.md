@@ -15,6 +15,11 @@ Project 2
 # My goal was to plant a table using panda, but ran into some issues. I tried to use this link "https://en.wikipedia.org/wiki/List_of_Japanese_military_equipment_of_World_War_II"
 #Again could'nt quite get it to run right so turning it in how ti is
 
+Project 3
+
+# Used several different python packages. Seaborn, and Panda. These tools are mainly used for data science and visualization.
+# Just make sure to download the appropriate packages.
+# All you would have to is make sure to have downloaded csv that the code would pull from and then run it.
 
 
 

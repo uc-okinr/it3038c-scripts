@@ -26,6 +26,8 @@ pip install seaborn
 
 From there everyting you will need to know is describe in the notes in my code
 
+If you would like to edit the graph with a different dataset, you will have to change the variables as well.
+
 
 
 

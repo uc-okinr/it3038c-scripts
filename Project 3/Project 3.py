@@ -1,44 +1,94 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[12]:
+# In[53]:
 
 
 ##I have started a new project, This projects uses seveal pakages including Panda, and Seaborn
-## I started this based off my graduate school work
+## I started this based off my graduate school work that i started a while ago. 
+## Seaborn is a tool used for graphical data analayis
 
-from pandas import Series, DataFrame
-import pandas as pd
+
 import seaborn as sns
 
-
-# In[13]:
-
-
-## Enter the data that you want, Has to be a CSV
-data_df=pd.read_csv('cs448b_ipasn.csv')
+# I used jupyter notebook for this assignment
 
 
-# In[15]:
+# In[54]:
 
 
-print(data_df.head(6))
+#You are able to upload several differetn types of datasets from seaborn that are already made.
+## Using this can help you find you favorite
 
-#This is just to make sure you it works
+sns.get_dataset_names()
 
-
-# In[18]:
-
-
-sns.jointplot(data_df['date'], data_df['l_ipn'])
-
-## There are many types of data plots that you can do, I found this the most intresting visually
+##This will display datasets that seaborn already have
 
 
-# In[11]:
+# In[55]:
 
 
+## Enter the data that you want,
+tips = sns.load_dataset("tips")
 
+## To make it easier i will continue to use the Tips dataset
+
+
+# In[56]:
+
+
+print(tips)
+
+#This is just to make sure you it works and to see the dataset
+
+
+# In[57]:
+
+
+# This is used to create the visual
+
+sns.relplot(
+    data=tips,
+    x="total_bill", y="tip", col="time",
+    hue="smoker", style="smoker", size="size",)
+
+
+# In[58]:
+
+
+# Another graph example that we can use is the distirbution graph. This is an information graph
+
+sns.displot(data=tips, x="total_bill", col="time", kde=True)
+
+
+# In[59]:
+
+
+car = sns.load_dataset("car_crashes")
+
+
+# In[60]:
+
+
+print(car)
+
+
+# In[61]:
+
+
+# Here is another example using the car crash data set
+
+sns.distplot(car['total'])
+
+
+# In[62]:
+
+
+## References
+## https://seaborn.pydata.org/introduction.html
+## https://medium.com/analytics-vidhya/deep-dive-into-seaborn-meet-the-datasets-8d08755a320b
+##
+##
 
 
 # In[ ]:
